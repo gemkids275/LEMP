@@ -2,7 +2,7 @@
 Docs for install LEMP
 
 #Run commands below one by one
-sudo bash
+-sudo bash
 ssh-keygen -A
 vi /etc/ssh/sshd_config #Tim va thay doi gia tri cua "PasswordAuthentication" thanh "yes"
 apt-get update && apt-get upgrade -y
